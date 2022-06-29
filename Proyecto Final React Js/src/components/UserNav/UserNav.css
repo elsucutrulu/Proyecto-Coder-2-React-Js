@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header div:first-child {
+  width: 100%;
+}
+
+.header .logger-user {
+    font-size: 14px;
+    color: white;
+    z-index: 1031;
+    flex-direction: column;
+}
+
+.header .btn-link.btn-anchor {
+  outline: none !important;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.header .btn-link.btn-anchor:hover{
+  color: rgb(177, 177, 177);
+}
+
+.header .btn-link.btn-anchor.btn-login {
+  padding: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .header .logger-user {
+    padding-bottom: 10px;
+  }
+}
